@@ -19,8 +19,172 @@
 
 <body>
     <!-- Navbar in light mode -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+        <!-- Organization Image and Text -->
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/bread-logo2-mini.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"
+                loading="lazy">
+            Adopt a Bread
+        </a>
+
+        <!-- Collapses the navbar behind a button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <div class="navbar-toggler-icon"></div>
+        </button>
+
+        <!-- Navbar items that will be collapsed behind button -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Adopt</a>
+                </li>
+
+                <!-- Get Involved section dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Get Involved
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navDropdown">
+                        <a class="dropdown-item" href="#">Calendar</a>
+                        <a class="dropdown-item" href="#">Donate</a>
+                        <a class="dropdown-item" href="#">Volunteer</a>
+                    </div>
+                </li>
+
+                <!-- About section dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navDropdown">
+                        <a class="dropdown-item" href="/about.html">About Us</a>
+                        <a class="dropdown-item" href="#">Annual Report</a>
+                        <a class="dropdown-item" href="#">Our Team</a>
+                    </div>
+                </li>
+
+                <!-- Contact section dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navDropdown">
+                        <a class="dropdown-item" href="./contact.html">Contact Us</a>
+                        <a class="dropdown-item" href="#">Join Our Team</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <Section class="contact-form">
+        <div class="text-center">
+            <h1>Contact Us</h1>
+            <h3>Adoption Center</h3>
+            <p>{Organization HQ Address}</p>
+            <p>Fresno CA {Zip Code}</p>
+            <p>{Phone Number}</p>
+        </div>
+
+        <form class="p-5">
+
+            <!-- Last Name -->
+            <div class="form-group">
+                <label for="inputFirstName">First Name</label>
+                <input type="text" class="form-control" id="inputFirstName">
+            </div>
+
+            <!-- First Name -->
+            <div class="form-group">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName">
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+
+            <!-- First Name -->
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <input type="text" class="form-control" id="inputMessage">
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="subCheck">
+                <label class="form-check-label" for="subCheck">I want to receive updates from Adopt a Bread</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </section>
 
     <!-- Footer -->
+    <footer class="container-fluid pt-3 footer-links bg-cocoa">
+        <div class="row text-center m-4">
+            <div class="col-sm">
+                <a href="#">
+                    <h3>Adopt</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm m-2">
+                <h3>About</h3>
+                <ul class="list-group">
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="#">Annual Report</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="col-sm m-2">
+                <h3 class="">Get Involved</h3>
+                <ul class="list-group">
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                </ul>
+            </div>
+            <div class="col-sm m-2">
+                <h3 class="">Contact</h3>
+                <ul class="list-group">
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="#">Join Our Team</a></li>
+                    <li><a href="#">Join Our Cult</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- Social media icons -->
+        <div class="row d-flex justify-content-center social-icons m-4">
+            <a href="#" class="fa fa-facebook fa-2x m-1"></a>
+            <a href="#" class="fa fa-twitter fa-2x m-1"></a>
+            <a href="#" class="fa fa-youtube fa-2x m-1"></a>
+            <a href="#" class="fa fa-instagram fa-2x m-1"></a>
+        </div>
+
+        <!-- Extra info -->
+        <div class="row d-flex justify-content-center">
+            <p>&copy; 2021 Adopt a Bread |
+                Privacy Policy | Terms and Conditions</p>
+            <p>Images from <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+    </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

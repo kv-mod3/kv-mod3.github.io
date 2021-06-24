@@ -16,8 +16,8 @@ li {
     list-style: none;
 }
 
-.nav-links a:link {
-    color: #503629;
+.nav-link {
+    color: #503629 !important;
 }
 
 .footer-links, .footer-links a {
@@ -26,6 +26,10 @@ li {
 
 .footer-links li {
     font-size: 16pt;
+}
+
+.color-dark-coffee {
+    color: #503629;
 }
 
 .bg-cocoa {

@@ -1,1 +1,29 @@
 @import url(./style.css);
+
+body {
+    background-color: #e4e0db;
+}
+
+h1 {
+    color: #503629;
+}
+
+form {
+    background-color: white;
+}
+
+.btn {
+    background-color: #7F3300;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #FFA060;
+    color: black;
+}
+
+.contact-form{
+    background-color: #F2F0ED;
+    margin: 100px;
+    padding: 20px;
+}
