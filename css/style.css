@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+body {
+    font-family: 'Benne', serif;
+}
+
+.custombrownfont {
+    color: #503629;
+}
+
+.theFooter {
+    color: white;
+    background-color: #503728;
+}
