@@ -8,7 +8,7 @@ body {
     font-family: 'Benne', serif;
 }
 
-h3 {
+h3, h5 {
     font-family: 'Merriweather', serif;
 }
 
@@ -16,18 +16,19 @@ li {
     list-style: none;
 }
 
-.footer-links a:link, a:visited {
-    font-size: 16pt;
-    color: white
-}
-
-
-.custombrownfont {
+.nav-links a:link {
     color: #503629;
 }
 
-.footer-info {
+.footer-links, .footer-links a {
     color: white;
+}
+
+.footer-links li {
+    font-size: 16pt;
+}
+
+.bg-cocoa {
     background-color: #503728;
 }
 
