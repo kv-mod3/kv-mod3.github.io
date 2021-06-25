@@ -1,14 +1,48 @@
+/* Import Benne font */
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+/* Import Merriweather font, Bold weight 700 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 body {
     font-family: 'Benne', serif;
+    background-color: #e4e0db;
 }
 
-.custombrownfont {
+h3, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    color: #503629 !important;
+}
+
+.footer-links, .footer-links a {
+    color: white;
+}
+
+.footer-links li {
+    font-size: 16pt;
+}
+
+.h-coffee-color {
     color: #503629;
 }
 
-.theFooter {
-    color: white;
+.bg-cocoa {
     background-color: #503728;
 }
+
+.social-icons a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+/* .testdiv {
+    background-color: orangered;
+    border: 2px solid black;
+} */

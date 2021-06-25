@@ -1,1 +1,31 @@
 @import url(./style.css);
+
+h1 {
+    color: #503629;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Benne', serif;
+}
+
+form {
+    background-color: white;
+}
+
+.btn {
+    background-color: #7F3300;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #FFA060;
+    color: black;
+}
+
+.contact-form{
+    background-color: #F2F0ED;
+    margin: 100px;
+    padding: 20px;
+    width: 950px;
+}
