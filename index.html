@@ -18,83 +18,126 @@
 </head>
 
 <body>
-    <header></header>
-    <!-- Navbar in light mode -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <header>
+        <!-- Navbar in light mode -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-        <!-- Organization Image and Text -->
-        <a class="navbar-brand" href="./index.html">
-            <img src="./img/bread-logo2-mini.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"
-                loading="lazy">
-            Adopt a Bread
-        </a>
+            <!-- Organization Image and Text -->
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/bread-logo2-mini.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"
+                    loading="lazy">
+                Adopt a Bread
+            </a>
 
-        <!-- Collapses the navbar behind a button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- Collapses the navbar behind a button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Navbar items that will be collapsed behind button -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Adopt</a>
-                </li>
+            <!-- Navbar items that will be collapsed behind button -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Adopt</a>
+                    </li>
 
-                <!-- Get Involved section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="#">Calendar</a>
-                        <a class="dropdown-item" href="#">Donate</a>
-                        <a class="dropdown-item" href="#">Volunteer</a>
-                    </div>
-                </li>
+                    <!-- Get Involved section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Get Involved
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="#">Calendar</a>
+                            <a class="dropdown-item" href="#">Donate</a>
+                            <a class="dropdown-item" href="#">Volunteer</a>
+                        </div>
+                    </li>
 
-                <!-- About section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        About
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="/about.html">About Us</a>
-                        <a class="dropdown-item" href="#">Annual Report</a>
-                        <a class="dropdown-item" href="#">Our Team</a>
-                    </div>
-                </li>
+                    <!-- About section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="/about.html">About Us</a>
+                            <a class="dropdown-item" href="#">Annual Report</a>
+                            <a class="dropdown-item" href="#">Our Team</a>
+                        </div>
+                    </li>
 
-                <!-- Contact section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Contact
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="./contact.html">Contact Us</a>
-                        <a class="dropdown-item" href="#">Join Our Team</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    <!-- Contact section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="./contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="#">Join Our Team</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+        <div class="card jumbo-card">
             <h1 class="display-4">Save a bread</h1>
-            <p class="lead">A happy loaf is a bread that remains full of flavor even after it's been eaten.</p>
+            <p class="lead">Adopt a loaf and give it a new life within your stomach.</p>
         </div>
     </div>
 
+    <!-- Ready to Adopt -->
+    <section class="adopt-sect p-5 mx-auto">
+        <div class="text-center mb-3">
+            <h3 class="h-coffee-color">Ready to Adopt</h3>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1586765501508-cffc1fe200c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+                    class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title h-coffee-color">Sour Dog</h5>
+                    <p class="card-text">Sour Dog is of the sourdough breed. Sour Dog loves basking in the sun. Please
+                        note, Sour Dog is afraid of birds.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 5 days ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1537734796389-e1fc293cf856?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                    class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title h-coffee-color">John Dough</h5>
+                    <p class="card-text">This is John Dough. John has yet to be baked into bread. Like others around its
+                        age,
+                        John is mesmerized by ovens.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1609889132708-e31330e6c7a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80"
+                    class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title h-coffee-color">Lemon</h5>
+                    <p class="card-text">This is Lemon. We have confirmed through a medical examination that Lemon does
+                        not taste like the lemon fruit, but in fact tastes like bread.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="container-fluid pt-3 footer-links bg-cocoa">
-        <div class="row text-center m-4">
+    <footer class="container-fluid p-5 footer-links bg-cocoa">
+        <div class="row text-center mb-5">
             <div class="col-sm">
                 <a href="#">
-                    <h3>Adopt</h3>
+                    <h3>Adoptions</h3>
                 </a>
             </div>
         </div>
@@ -136,10 +179,9 @@
         </div>
 
         <!-- Extra info -->
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center mb-n5">
             <p>&copy; 2021 Adopt a Bread |
-                Privacy Policy | Terms and Conditions</p>
-            <p>Images from <a href="https://unsplash.com/">Unsplash</a></p>
+                Privacy Policy | Images from <a href="https://unsplash.com/">Unsplash</p>
         </div>
     </footer>
 

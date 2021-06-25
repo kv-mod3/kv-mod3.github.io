@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Benne', serif;
+    background-color: #e4e0db;
 }
 
 h3, h5 {
@@ -28,7 +29,7 @@ li {
     font-size: 16pt;
 }
 
-.color-dark-coffee {
+.h-coffee-color {
     color: #503629;
 }
 
@@ -41,9 +42,7 @@ li {
   text-decoration: none;
 }
 
-.testdiv {
+/* .testdiv {
     background-color: orangered;
     border: 2px solid black;
-}
-
-/* list-style: none */
+} */

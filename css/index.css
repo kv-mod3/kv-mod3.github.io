@@ -4,4 +4,24 @@
     background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    height: 500px;
+}
+
+.jumbo-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.adopt-sect {
+    width: 950px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
 }

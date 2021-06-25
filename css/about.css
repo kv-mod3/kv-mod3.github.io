@@ -7,12 +7,16 @@ body {
 }
 
 .mission-card {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(51, 34, 26, 0.75);
     color: white;
     font-size: 16pt;
     list-style: disc;
 }
 
-/* li {
-    list-style: disc;
-} */
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: orangered;
+}

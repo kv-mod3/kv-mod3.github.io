@@ -18,68 +18,70 @@
 </head>
 
 <body>
-    <!-- Navbar in light mode -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <header>
+        <!-- Navbar in light mode -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-        <!-- Organization Image and Text -->
-        <a class="navbar-brand" href="./index.html">
-            <img src="./img/bread-logo2-mini.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"
-                loading="lazy">
-            Adopt a Bread
-        </a>
+            <!-- Organization Image and Text -->
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/bread-logo2-mini.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"
+                    loading="lazy">
+                Adopt a Bread
+            </a>
 
-        <!-- Collapses the navbar behind a button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- Collapses the navbar behind a button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Navbar items that will be collapsed behind button -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Adopt</a>
-                </li>
+            <!-- Navbar items that will be collapsed behind button -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Adopt</a>
+                    </li>
 
-                <!-- Get Involved section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="#">Calendar</a>
-                        <a class="dropdown-item" href="#">Donate</a>
-                        <a class="dropdown-item" href="#">Volunteer</a>
-                    </div>
-                </li>
+                    <!-- Get Involved section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Get Involved
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="#">Calendar</a>
+                            <a class="dropdown-item" href="#">Donate</a>
+                            <a class="dropdown-item" href="#">Volunteer</a>
+                        </div>
+                    </li>
 
-                <!-- About section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        About
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="/about.html">About Us</a>
-                        <a class="dropdown-item" href="#">Annual Report</a>
-                        <a class="dropdown-item" href="#">Our Team</a>
-                    </div>
-                </li>
+                    <!-- About section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="/about.html">About Us</a>
+                            <a class="dropdown-item" href="#">Annual Report</a>
+                            <a class="dropdown-item" href="#">Our Team</a>
+                        </div>
+                    </li>
 
-                <!-- Contact section dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Contact
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navDropdown">
-                        <a class="dropdown-item" href="./contact.html">Contact Us</a>
-                        <a class="dropdown-item" href="#">Join Our Team</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    <!-- Contact section dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navDropdown">
+                            <a class="dropdown-item" href="./contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="#">Join Our Team</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- About Us section -->
     <div class="card m-5 mission-card">
@@ -121,12 +123,80 @@
         </div>
     </div>
 
+    <div class="accordion" id="accordionAboutUs">
+        <div class="card m-5 mission-card">
+            <div class="card-header" id="headingAbout">
+                <h3 class="mb-0">
+                    <button class="btn btn-link btn-block text-left links-light" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Our Values
+                    </button>
+                </h3>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingAbout" data-parent="#accordionAboutUs">
+                <div class="card-body">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Mission & What We Do</h5>
+                        <p class="card-text">Adopt a Bread is an international non-profit organization which uses the
+                            power of
+                            social media and the internet to educate consumers about the benefits of adopting or sharing
+                            a loaf,
+                            while creating lasting connections between bakeries across the globe.
+                            The importance of adopting bread has been recognized by various food organizations such as
+                            The United
+                            States Department of Agriculture (USDA), Slow Food USA, and others. Every year, millions of
+                            bread lives
+                            are saved through our efforts in spreading awareness. We use online platforms such as
+                            Facebook,
+                            Pinterest, Twitter, Instagram, etc., and other more traditional forms of outreach such as
+                            printed
+                            materials and newspaper articles. Adoption rates range from 5% to over 50%, depending on
+                            location and
+                            bakery's adoption policy. Our goal is to raise awareness and increase adoption among the
+                            general
+                            population to 10%. The more we can reach new adopters, the higher percentage rate of success
+                            becomes.
+                            We've raised hundreds of thousands of dollars for the preservation and rescue of many
+                            different breads
+                            such as:</p>
+
+                        <ul>
+                            <li>Ciabatta</li>
+                            <li>Oatmeal Raisin Sandwich Loaf</li>
+                            <li>Honey Buns</li>
+                            <li>French Country Bread</li>
+                            <li>Rye Sourdough</li>
+                            <li>Sourdough Bread</li>
+                            <li>Baguette Bread</li>
+                            <li>Pizza Dough</li>
+                        </ul>
+
+                        <p>Additionally, we also save and rescue gluten-free breads, dairy-free breads, vegetarian
+                            breads, nut
+                            breads,
+                            fruit breads and other unique varieties of breads. We believe that every human should adopt
+                            a loaf of
+                            bread
+                            each month to help ensure that the life of
+                            the bread is preserved in their mouth. A happy loaf is a bread that knows its purpose and
+                            remains full
+                            of
+                            flavor even after it's been eaten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <!-- Footer -->
-    <footer class="container-fluid pt-3 footer-links bg-cocoa">
-        <div class="row text-center m-4">
+    <footer class="container-fluid p-5 footer-links bg-cocoa">
+        <div class="row text-center mb-5">
             <div class="col-sm">
                 <a href="#">
-                    <h3>Adopt</h3>
+                    <h3>Adoptions</h3>
                 </a>
             </div>
         </div>
@@ -168,10 +238,9 @@
         </div>
 
         <!-- Extra info -->
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center mb-n5">
             <p>&copy; 2021 Adopt a Bread |
-                Privacy Policy | Terms and Conditions</p>
-            <p>Images from <a href="https://unsplash.com/">Unsplash</a></p>
+                Privacy Policy | Images from <a href="https://unsplash.com/">Unsplash</p>
         </div>
     </footer>
 

@@ -1,11 +1,12 @@
 @import url(./style.css);
 
-body {
-    background-color: #e4e0db;
-}
-
 h1 {
     color: #503629;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Benne', serif;
 }
 
 form {
@@ -26,4 +27,5 @@ form {
     background-color: #F2F0ED;
     margin: 100px;
     padding: 20px;
+    width: 950px;
 }
